@@ -1,0 +1,57 @@
+Language model created by QuickLM on Sun Sep 12 02:50:54 EDT 2021
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 6 sentences and 8 words
+
+\data\
+ngram 1=8
+ngram 2=13
+ngram 3=13
+
+\1-grams:
+-0.9208 </s> -0.3010
+-0.9208 <s> -0.2355
+-1.3979 BRAVE -0.2455
+-1.3979 CHROME -0.2455
+-1.2218 CLOSE -0.2455
+-1.3979 NOTEPAD -0.2455
+-1.2218 OPEN -0.2455
+-1.6990 PLEASE -0.2742
+
+\2-grams:
+-0.6021 <s> CLOSE 0.0000
+-0.7782 <s> OPEN -0.1249
+-1.0792 <s> PLEASE 0.0000
+-0.3010 BRAVE </s> -0.3010
+-0.3010 CHROME </s> -0.3010
+-0.7782 CLOSE BRAVE 0.0000
+-0.7782 CLOSE CHROME 0.0000
+-0.7782 CLOSE NOTEPAD 0.0000
+-0.3010 NOTEPAD </s> -0.3010
+-0.7782 OPEN BRAVE 0.0000
+-0.7782 OPEN CHROME 0.0000
+-0.7782 OPEN NOTEPAD 0.0000
+-0.3010 PLEASE OPEN -0.2218
+
+\3-grams:
+-0.7782 <s> CLOSE BRAVE
+-0.7782 <s> CLOSE CHROME
+-0.7782 <s> CLOSE NOTEPAD
+-0.6021 <s> OPEN BRAVE
+-0.6021 <s> OPEN CHROME
+-0.3010 <s> PLEASE OPEN
+-0.3010 CLOSE BRAVE </s>
+-0.3010 CLOSE CHROME </s>
+-0.3010 CLOSE NOTEPAD </s>
+-0.3010 OPEN BRAVE </s>
+-0.3010 OPEN CHROME </s>
+-0.3010 OPEN NOTEPAD </s>
+-0.3010 PLEASE OPEN NOTEPAD
+
+\end\

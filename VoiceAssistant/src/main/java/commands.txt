@@ -1,0 +1,6 @@
+open chrome
+close chrome
+open brave
+close brave
+please open notepad
+close notepad
